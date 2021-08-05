@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Ma+Shan+Zheng&display=swap');
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fondamento', cursive;
+    letter-spacing: 2px;
+  }
