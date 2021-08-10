@@ -6,7 +6,7 @@ export const CustomerProvider = (props) => {
     const [customers, setCustomers]
 
     const getCustomers = () => {
-        return fetch("http://localhost:8088/customers")
+        return fetch("http://localhost:8088/customers?_expand=products")
             .then(res => res.json())
             .then(setCustomers)
     }
