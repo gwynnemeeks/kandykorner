@@ -24,7 +24,7 @@ export const ProductProvider = (props) => {
 
     return (
         <ProductContext.Provider value={{
-            Products, getProducts, addProduct
+            products, getProducts, addProduct
         }}>
             {props.children}
         </ProductContext.Provider>
