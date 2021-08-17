@@ -13,7 +13,7 @@ import { EmployeeList } from "./employees/EmployeeList"
 import { ProductProvider } from "./products/ProductProvider"
 import { ProductList } from "./products/ProductList"
 
-import { ProductProvider } from "./products/ProductProvider"
+import { ProductTypeProvider } from "./productType/productTypeProvider"
 import { ProductTypeList } from "./productType/productTypeList"
 
 export const ApplicationViews = () => {
