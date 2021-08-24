@@ -13,4 +13,20 @@ export const CustomerList = () => {
         <section className="customers">
             {
                 customers.map(customer => {
-                    return ()
+                    return (
+                        <div className="card" style="--background: #5d9cec; --text: white" id={`customer--${customer.id}`}>
+                            <div className="multi-button">
+                                <button className="fas fa-heart"></button>
+                                <button className="fas fa-comment"></button>
+                                <button className="fas fa-share-alt"></button>
+                                <button className="fas fa-trash"></button>
+                            </div>
+                            <div className="container"></div>
+                        </div>
+                    )
+
+                })
+            }
+        </section>
+    )
+}
