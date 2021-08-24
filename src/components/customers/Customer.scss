@@ -5,8 +5,10 @@ body {
     padding:5rem;
     background:#F5F7FA;
     .card {
-        --background:#FFFFFF;
-        --text:black;
+        // --background:#FFFFFF;
+        // --text:black;
+        background: orchid; 
+        text-decoration-color: white;
         position: relative;
         height:12rem;
         box-shadow:0 0 2rem -1rem rgba(0,0,0,.05);

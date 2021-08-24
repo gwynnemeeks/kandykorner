@@ -14,7 +14,7 @@ export const CustomerList = () => {
             {
                 customers.map(customer => {
                     return (
-                        <div className="card" style="--background: #5d9cec; --text: white" id={`customer--${customer.id}`}>
+                        <div className="card" id={`customer--${customer.id}`}>
                             <div className="multi-button">
                                 <button className="fas fa-heart"></button>
                                 <button className="fas fa-comment"></button>
