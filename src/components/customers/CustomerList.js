@@ -21,7 +21,15 @@ export const CustomerList = () => {
                                 <button className="fas fa-share-alt"></button>
                                 <button className="fas fa-trash"></button>
                             </div>
-                            <div className="container"></div>
+                            <div className="container">
+                                <h3>{customer.name}</h3>
+                                <ul>
+                                    <li>Blood Sugar Base Level: {customer.bloodSugarBase}</li>
+                                    <li>Insulin Sensitivity: {customer.insulinSensitivity}</li>
+                                    <li>Carb Sensitivity: {customer.carbSensitivity}</li>
+                                    <li>Products that Work: {customer.productId}</li>
+                                </ul>
+                            </div>
                         </div>
                     )
 
